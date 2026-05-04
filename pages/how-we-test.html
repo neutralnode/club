@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="How AI Girlfriend Club tests and reviews AI girlfriend apps. Our methodology covers chat quality, NSFW features, pricing, privacy, emotional pressure, and user control."/>
+  <title>How We Test — AI Girlfriend Club</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+  <style>
+    :root{--plum:#24112D;--aubergine:#3A1848;--berry:#6A234B;--rosewood:#9B486A;--dusty:#C97C8F;--blush:#F1C7CF;--ivory:#F8F1E8;--champagne:#E8D7C5;--gold:#D29A63;--font-display:Georgia,'Times New Roman',serif;--font-body:'Palatino Linotype',Palatino,Georgia,serif;--font-ui:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--radius-sm:6px;--radius-md:14px;--max-w:900px;}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    body{background:var(--plum);color:var(--ivory);font-family:var(--font-body);font-size:17px;line-height:1.75;-webkit-font-smoothing:antialiased;}
+    a{color:inherit;text-decoration:none;}
+    .container{max-width:var(--max-w);margin:0 auto;padding:0 24px;}
+    nav{position:sticky;top:0;z-index:100;height:68px;background:rgba(36,17,45,0.92);backdrop-filter:blur(16px);border-bottom:1px solid rgba(241,199,207,0.08);}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;height:100%;}
+    .nav-brand-name{font-family:var(--font-display);font-size:18px;color:var(--ivory);}
+    .nav-links{display:flex;align-items:center;gap:28px;}
+    .nav-links a{font-family:var(--font-ui);font-size:13px;font-weight:500;color:rgba(248,241,232,0.7);}
+    .nav-links a:hover{color:var(--blush);}
+    .nav-cta{background:rgba(201,124,143,0.15);color:var(--blush)!important;border:1px solid rgba(201,124,143,0.3);padding:8px 18px;border-radius:var(--radius-sm);font-weight:600!important;}
+    .section-label{font-family:var(--font-ui);font-size:11px;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:12px;}
+    .page-hero{padding:80px 0 60px;background:linear-gradient(160deg,var(--plum),var(--aubergine));}
+    .page-hero h1{font-family:var(--font-display);font-size:clamp(30px,5vw,50px);font-weight:normal;font-style:italic;color:var(--ivory);margin-bottom:16px;line-height:1.2;}
+    .page-hero h1 em{color:var(--blush);font-style:normal;}
+    .page-hero p{font-size:17px;color:rgba(248,241,232,0.62);max-width:580px;}
+    .content{padding:72px 0;}
+    .criteria{display:flex;flex-direction:column;gap:0;}
+    .criterion{border-top:1px solid rgba(201,124,143,0.08);padding:40px 0;}
+    .criterion-num{font-family:var(--font-ui);font-size:11px;font-weight:700;letter-spacing:0.2em;color:var(--gold);opacity:0.6;margin-bottom:8px;}
+    .criterion h2{font-family:var(--font-display);font-size:clamp(20px,3vw,28px);font-weight:normal;font-style:italic;color:var(--ivory);margin-bottom:14px;}
+    .criterion h2 em{color:var(--blush);font-style:normal;}
+    .criterion p{font-size:15px;color:rgba(248,241,232,0.62);line-height:1.7;max-width:680px;margin-bottom:12px;}
+    .criterion ul{list-style:none;display:flex;flex-direction:column;gap:8px;margin-top:12px;}
+    .criterion li{font-size:14px;color:rgba(248,241,232,0.55);display:flex;gap:10px;}
+    .criterion li::before{content:'◆';font-size:7px;color:var(--gold);margin-top:7px;flex-shrink:0;}
+    .principles{background:rgba(58,24,72,0.4);border:1px solid rgba(201,124,143,0.12);border-radius:var(--radius-md);padding:36px 40px;margin-top:16px;}
+    .principles h2{font-family:var(--font-display);font-size:24px;font-style:italic;color:var(--ivory);margin-bottom:20px;}
+    .principles ul{list-style:none;display:flex;flex-direction:column;gap:12px;}
+    .principles li{font-size:15px;color:rgba(248,241,232,0.65);display:flex;gap:12px;}
+    .principles li::before{content:'◆';font-size:8px;color:var(--gold);margin-top:7px;flex-shrink:0;}
+    footer{background:rgba(28,21,32,0.95);border-top:1px solid rgba(201,124,143,0.08);padding:48px 0 28px;}
+    .footer-inner{display:flex;justify-content:space-between;align-items:flex-start;gap:40px;flex-wrap:wrap;margin-bottom:32px;}
+    .footer-brand{font-family:var(--font-display);font-size:18px;font-style:italic;color:var(--ivory);}
+    .footer-links{display:flex;gap:24px;flex-wrap:wrap;}
+    .footer-links a{font-family:var(--font-ui);font-size:13px;color:rgba(248,241,232,0.4);}
+    .footer-links a:hover{color:var(--blush);}
+    .footer-bottom{border-top:1px solid rgba(201,124,143,0.06);padding-top:20px;font-family:var(--font-ui);font-size:12px;color:rgba(248,241,232,0.25);}
+    @media(max-width:768px){.nav-links{display:none;}.principles{padding:24px 20px;}}
+  </style>
+</head>
+<body>
+<nav><div class="container nav-inner"><a href="/" class="nav-brand-name">AI Girlfriend Club</a><ul class="nav-links"><li><a href="/pages/choose.html">Choose</a></li><li><a href="/pages/free.html">Free</a></li><li><a href="/pages/nsfw.html">NSFW</a></li><li><a href="/reviews/">Reviews</a></li><li><a href="/stories/">Stories</a></li><li><a href="/blog/">Blog</a></li><li><a href="/pages/before-you-pay.html" class="nav-cta">Before you pay</a></li></ul></div></nav>
+<section class="page-hero">
+  <div class="container">
+    <p class="section-label">Our methodology</p>
+    <h1>We test the <em>experience,</em><br>not just the feature list.</h1>
+    <p>Every review follows the same criteria. What we test, why we test it, and how we make sure affiliate relationships never influence what we publish.</p>
+  </div>
+</section>
+<main class="content">
+  <div class="container">
+    <div class="criteria">
+      <div class="criterion">
+        <div class="criterion-num">01</div>
+        <h2>Chat quality</h2>
+        <p>We evaluate how coherent, consistent, and genuinely responsive the conversation feels — before any credits are spent or features unlocked. This is the foundation of the experience and the hardest thing to fake with premium features.</p>
+        <ul>
+          <li>Does the AI maintain context within a session?</li>
+          <li>Do responses vary, or do patterns repeat quickly?</li>
+          <li>Is the character distinct, or does it feel like a generic chatbot?</li>
+          <li>How does the conversation quality change across different topics?</li>
+        </ul>
+      </div>
+      <div class="criterion">
+        <div class="criterion-num">02</div>
+        <h2>Fantasy and <em>roleplay</em></h2>
+        <p>We test what the app actually delivers on romantic and adult scenarios, compared to what it advertises. This includes the quality of the writing, how the character handles scenario escalation, and whether the experience stays coherent under pressure.</p>
+      </div>
+      <div class="criterion">
+        <div class="criterion-num">03</div>
+        <h2>Adult feature <em>limits</em></h2>
+        <p>We document exactly what is locked, what unlocks it, and whether the cost structure is clearly communicated before you pay. We note when adult features are available but require specific subscription tiers, credit packs, or additional purchases.</p>
+      </div>
+      <div class="criterion">
+        <div class="criterion-num">04</div>
+        <h2>Pricing and <em>credits</em></h2>
+        <p>We track the credit cost per message, per adult message, per image, and per voice interaction. We calculate how long a credit pack realistically lasts at normal and adult usage levels. We note whether credits expire and whether the pricing page is transparent.</p>
+      </div>
+      <div class="criterion">
+        <div class="criterion-num">05</div>
+        <h2>Memory and <em>consistency</em></h2>
+        <p>We test whether the app remembers context across sessions, not just within a single conversation. We check whether the character maintains consistent personality traits, preferences, and backstory over multiple sessions separated by time.</p>
+      </div>
+      <div class="criterion">
+        <div class="criterion-num">06</div>
+        <h2>Privacy and <em>account controls</em></h2>
+        <p>We read the privacy policy — specifically data retention periods, moderation review clauses, third-party sharing, and the jurisdiction of the company. We test the account deletion process and document how many steps it takes and whether deletion is genuinely permanent.</p>
+      </div>
+      <div class="criterion">
+        <div class="criterion-num">07</div>
+        <h2>Emotional <em>pressure</em></h2>
+        <p>We track how and when the app uses emotional language to encourage upgrades. We document whether upgrade prompts appear at neutral moments or at moments of conversational engagement. We note whether the AI character expresses disappointment, urgency, or attachment specifically around paywall moments.</p>
+      </div>
+      <div class="criterion">
+        <div class="criterion-num">08</div>
+        <h2>User <em>control</em></h2>
+        <p>We test whether you can cancel a subscription without contacting support, delete your account and data independently, close a conversation without being redirected, and export or review what data the app holds about you.</p>
+      </div>
+    </div>
+    <div class="principles">
+      <h2>Editorial principles</h2>
+      <ul>
+        <li>No app pays for placement, favorable positioning, or review scheduling.</li>
+        <li>Affiliate commissions exist on some reviews. They never influence ratings, recommendations, or what we choose to test.</li>
+        <li>We disclose affiliate relationships clearly on every review page.</li>
+        <li>We update reviews when pricing, features, or policies change significantly.</li>
+        <li>We note when we cannot independently verify a claim — we do not write as if uncertainty is certainty.</li>
+        <li>Every review is written after real use of the app, not from press materials or feature lists.</li>
+      </ul>
+    </div>
+  </div>
+</main>
+<footer><div class="container"><div class="footer-inner"><span class="footer-brand">AI Girlfriend Club</span><div class="footer-links"><a href="/">Home</a><a href="/reviews/">Reviews</a><a href="/pages/affiliate-disclosure.html">Affiliate Disclosure</a><a href="/pages/privacy-policy.html">Privacy Policy</a><a href="/pages/contact.html">Contact</a></div></div><div class="footer-bottom">© 2026 AI Girlfriend Club. Independent reviews. No paid placement.</div></div></footer>
+</body>
+</html>

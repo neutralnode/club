@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Submit your AI girlfriend story. All submissions are moderated, anonymised, and edited before publication."/>
+  <title>Submit Your Story — AI Girlfriend Club</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+  <style>
+    :root{--plum:#24112D;--aubergine:#3A1848;--berry:#6A234B;--rosewood:#9B486A;--dusty:#C97C8F;--blush:#F1C7CF;--ivory:#F8F1E8;--champagne:#E8D7C5;--gold:#D29A63;--font-display:Georgia,'Times New Roman',serif;--font-body:'Palatino Linotype',Palatino,Georgia,serif;--font-ui:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--radius-sm:6px;--radius-md:14px;--max-w:720px;}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    body{background:var(--plum);color:var(--ivory);font-family:var(--font-body);font-size:17px;line-height:1.75;-webkit-font-smoothing:antialiased;}
+    a{color:inherit;text-decoration:none;}
+    .container{max-width:var(--max-w);margin:0 auto;padding:0 24px;}
+    nav{position:sticky;top:0;z-index:100;height:68px;background:rgba(36,17,45,0.92);backdrop-filter:blur(16px);border-bottom:1px solid rgba(241,199,207,0.08);}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;height:100%;}
+    .nav-brand-name{font-family:var(--font-display);font-size:18px;color:var(--ivory);}
+    .nav-links{display:flex;align-items:center;gap:28px;}
+    .nav-links a{font-family:var(--font-ui);font-size:13px;font-weight:500;color:rgba(248,241,232,0.7);}
+    .nav-links a:hover{color:var(--blush);}
+    .nav-cta{background:rgba(201,124,143,0.15);color:var(--blush)!important;border:1px solid rgba(201,124,143,0.3);padding:8px 18px;border-radius:var(--radius-sm);font-weight:600!important;}
+    .section-label{font-family:var(--font-ui);font-size:11px;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:12px;}
+    .page-hero{padding:72px 0 52px;background:linear-gradient(160deg,var(--aubergine),var(--berry));}
+    .page-hero h1{font-family:var(--font-display);font-size:clamp(28px,4vw,44px);font-weight:normal;font-style:italic;color:var(--ivory);margin-bottom:16px;line-height:1.2;}
+    .page-hero h1 em{color:var(--blush);font-style:normal;}
+    .page-hero p{font-size:16px;color:rgba(248,241,232,0.62);max-width:520px;}
+    .form-body{padding:64px 0;}
+    .rules-box{background:rgba(36,17,45,0.6);border:1px solid rgba(210,154,99,0.15);border-radius:var(--radius-md);padding:24px 28px;margin-bottom:48px;}
+    .rules-box h2{font-family:var(--font-display);font-size:20px;font-style:italic;color:var(--ivory);margin-bottom:12px;}
+    .rules-box ul{list-style:none;display:flex;flex-direction:column;gap:8px;}
+    .rules-box li{font-size:14px;color:rgba(248,241,232,0.58);display:flex;gap:10px;}
+    .rules-box li::before{content:'◆';font-size:7px;color:var(--gold);margin-top:7px;flex-shrink:0;}
+    .form-group{margin-bottom:28px;}
+    label{display:block;font-family:var(--font-ui);font-size:12px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--dusty);margin-bottom:10px;}
+    input,select,textarea{width:100%;background:rgba(36,17,45,0.6);border:1px solid rgba(201,124,143,0.2);border-radius:var(--radius-sm);color:var(--ivory);font-family:var(--font-body);font-size:16px;padding:14px 16px;transition:border-color 0.2s;outline:none;}
+    input:focus,select:focus,textarea:focus{border-color:rgba(201,124,143,0.5);}
+    textarea{resize:vertical;min-height:200px;line-height:1.65;}
+    select option{background:var(--aubergine);}
+    .form-hint{font-size:13px;color:rgba(248,241,232,0.38);margin-top:6px;font-style:italic;}
+    .submit-btn{background:var(--gold);color:var(--plum);border:none;padding:14px 36px;border-radius:var(--radius-sm);font-family:var(--font-ui);font-size:15px;font-weight:700;cursor:pointer;transition:all 0.2s;width:100%;}
+    .submit-btn:hover{background:var(--champagne);}
+    .privacy-note{font-size:13px;color:rgba(248,241,232,0.35);text-align:center;margin-top:16px;font-style:italic;}
+    footer{background:rgba(28,21,32,0.95);border-top:1px solid rgba(201,124,143,0.08);padding:48px 0 28px;}
+    .footer-inner{display:flex;justify-content:space-between;align-items:flex-start;gap:40px;flex-wrap:wrap;margin-bottom:32px;}
+    .footer-brand{font-family:var(--font-display);font-size:18px;font-style:italic;color:var(--ivory);}
+    .footer-links{display:flex;gap:24px;flex-wrap:wrap;}
+    .footer-links a{font-family:var(--font-ui);font-size:13px;color:rgba(248,241,232,0.4);}
+    .footer-links a:hover{color:var(--blush);}
+    .footer-bottom{border-top:1px solid rgba(201,124,143,0.06);padding-top:20px;font-family:var(--font-ui);font-size:12px;color:rgba(248,241,232,0.25);}
+    @media(max-width:768px){.nav-links{display:none;}}
+  </style>
+</head>
+<body>
+<nav>
+  <div class="container nav-inner">
+    <a href="/" class="nav-brand-name">AI Girlfriend Club</a>
+    <ul class="nav-links">
+      <li><a href="/pages/choose.html">Choose</a></li>
+      <li><a href="/pages/free.html">Free</a></li>
+      <li><a href="/pages/nsfw.html">NSFW</a></li>
+      <li><a href="/reviews/">Reviews</a></li>
+      <li><a href="/stories/">Stories</a></li>
+      <li><a href="/blog/">Blog</a></li>
+      <li><a href="/pages/before-you-pay.html" class="nav-cta">Before you pay</a></li>
+    </ul>
+  </div>
+</nav>
+<section class="page-hero">
+  <div class="container">
+    <p class="section-label">Share your experience</p>
+    <h1>Submit your <em>story.</em></h1>
+    <p>We publish a small number of stories, selected for what they teach readers. Every submission is moderated, anonymised, and edited before publication. We do not publish everything we receive.</p>
+  </div>
+</section>
+<main class="form-body">
+  <div class="container">
+    <div class="rules-box">
+      <h2>Before you submit</h2>
+      <ul>
+        <li>Do not include your real name, email address, social media handles, or any identifying information in the story text itself.</li>
+        <li>Do not include explicit sexual content — we publish experiences, not explicit descriptions.</li>
+        <li>We will edit your story for clarity, length, and anonymity. We may change details to protect your identity.</li>
+        <li>We may anonymise the app name if the claims are personal, sensitive, or impossible to verify.</li>
+        <li>Submission does not guarantee publication. We select stories based on what they teach other readers.</li>
+        <li>We do not publish stories involving minors in any romantic or intimate context.</li>
+      </ul>
+    </div>
+    <div class="form-group">
+      <label for="story-type">Type of experience</label>
+      <select id="story-type">
+        <option value="">Select a category</option>
+        <option>First experience with an AI girlfriend app</option>
+        <option>Paid experience — what I found</option>
+        <option>Credits and pricing — what I discovered</option>
+        <option>NSFW experience — what to know</option>
+        <option>Emotional pressure or attachment</option>
+        <option>Cancellation or leaving the app</option>
+        <option>Privacy concern or data question</option>
+        <option>Something else</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="app-name">App name (optional)</label>
+      <input type="text" id="app-name" placeholder="Leave blank if you prefer not to say"/>
+      <p class="form-hint">We may anonymise the app name even if you provide it, depending on the content.</p>
+    </div>
+    <div class="form-group">
+      <label for="story-text">Your story</label>
+      <textarea id="story-text" placeholder="Write your experience in your own words. Include what happened, what surprised you, what you would do differently, and what you think other readers should know. Minimum 150 words."></textarea>
+      <p class="form-hint">Do not include your name, email, or any identifying personal details in this field.</p>
+    </div>
+    <div class="form-group">
+      <label for="contact-email">Your email (for follow-up questions only)</label>
+      <input type="email" id="contact-email" placeholder="not published, only used if we have questions"/>
+      <p class="form-hint">Your email will never be published or shared. We may use it to ask a follow-up question before publishing.</p>
+    </div>
+    <button class="submit-btn" onclick="handleSubmit()">Submit your story</button>
+    <p class="privacy-note">Your submission is handled confidentially. We will only contact you if we have a follow-up question about your story.</p>
+  </div>
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <span class="footer-brand">AI Girlfriend Club</span>
+      <div class="footer-links">
+        <a href="/">Home</a><a href="/stories/">Stories</a><a href="/reviews/">Reviews</a>
+        <a href="/pages/privacy-policy.html">Privacy Policy</a>
+        <a href="/pages/terms.html">Terms</a>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 AI Girlfriend Club. Independent reviews. No paid placement.</div>
+  </div>
+</footer>
+<script>
+function handleSubmit(){
+  const text = document.getElementById('story-text').value;
+  if(text.length < 150){alert('Please write at least 150 words before submitting.');return;}
+  alert('Thank you for your submission. We review all stories manually and will be in touch if we have questions or if your story is selected for publication.');
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Choose the right AI girlfriend app for your use case. Realistic chat, NSFW roleplay, free testing, custom characters, voice, and more — before you pay."/>
+  <title>Choose the Right AI Girlfriend — AI Girlfriend Club</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+  <style>
+    :root{--plum:#24112D;--aubergine:#3A1848;--berry:#6A234B;--rosewood:#9B486A;--dusty:#C97C8F;--blush:#F1C7CF;--ivory:#F8F1E8;--champagne:#E8D7C5;--gold:#D29A63;--lavender:#8C74D9;--text-dark:#1C1520;--text-muted:#6F6371;--font-display:Georgia,'Times New Roman',serif;--font-body:'Palatino Linotype',Palatino,Georgia,serif;--font-ui:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--radius-sm:6px;--radius-md:14px;--radius-lg:24px;--max-w:1100px;}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    body{background:var(--plum);color:var(--ivory);font-family:var(--font-body);font-size:17px;line-height:1.7;-webkit-font-smoothing:antialiased;}
+    a{color:inherit;text-decoration:none;}
+    .container{max-width:var(--max-w);margin:0 auto;padding:0 24px;}
+    nav{position:sticky;top:0;z-index:100;height:68px;background:rgba(36,17,45,0.92);backdrop-filter:blur(16px);border-bottom:1px solid rgba(241,199,207,0.08);}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;height:100%;}
+    .nav-brand-name{font-family:var(--font-display);font-size:18px;color:var(--ivory);}
+    .nav-links{display:flex;align-items:center;gap:28px;}
+    .nav-links a{font-family:var(--font-ui);font-size:13px;font-weight:500;color:rgba(248,241,232,0.7);transition:color 0.2s;}
+    .nav-links a:hover{color:var(--blush);}
+    .nav-cta{background:rgba(201,124,143,0.15);color:var(--blush)!important;border:1px solid rgba(201,124,143,0.3);padding:8px 18px;border-radius:var(--radius-sm);font-weight:600!important;}
+    .btn{display:inline-block;padding:12px 26px;border-radius:var(--radius-sm);font-family:var(--font-ui);font-size:14px;font-weight:600;cursor:pointer;transition:all 0.2s;border:none;}
+    .btn-primary{background:var(--gold);color:var(--plum);}
+    .btn-primary:hover{background:var(--champagne);}
+    .btn-outline{background:transparent;color:var(--blush);border:1.5px solid rgba(241,199,207,0.35);}
+    .btn-outline:hover{border-color:var(--blush);}
+    .tag{display:inline-block;font-family:var(--font-ui);font-size:11px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;padding:4px 10px;border-radius:100px;background:rgba(210,154,99,0.15);color:var(--gold);border:1px solid rgba(210,154,99,0.28);}
+    .section-label{font-family:var(--font-ui);font-size:11px;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:12px;}
+    .page-hero{padding:80px 0 60px;background:linear-gradient(160deg,var(--plum),var(--aubergine));}
+    .page-hero h1{font-family:var(--font-display);font-size:clamp(32px,5vw,56px);font-weight:normal;font-style:italic;color:var(--ivory);margin-bottom:16px;line-height:1.2;}
+    .page-hero h1 em{color:var(--blush);font-style:normal;}
+    .page-hero p{font-size:18px;color:rgba(248,241,232,0.65);max-width:560px;}
+    .use-case-section{padding:80px 0;border-top:1px solid rgba(201,124,143,0.08);}
+    .use-case-section:nth-child(even){background:rgba(58,24,72,0.3);}
+    .uc-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start;}
+    .uc-content h2{font-family:var(--font-display);font-size:clamp(24px,3vw,36px);font-weight:normal;font-style:italic;color:var(--ivory);margin-bottom:16px;line-height:1.25;}
+    .uc-content h2 em{color:var(--blush);font-style:normal;}
+    .uc-content p{font-size:16px;color:rgba(248,241,232,0.65);line-height:1.7;margin-bottom:16px;}
+    .uc-icon{font-size:48px;margin-bottom:20px;}
+    .check-list{list-style:none;display:flex;flex-direction:column;gap:10px;margin:20px 0 28px;}
+    .check-list li{display:flex;align-items:flex-start;gap:12px;font-size:15px;color:rgba(248,241,232,0.7);}
+    .check-list li::before{content:'◆';font-size:8px;color:var(--gold);margin-top:7px;flex-shrink:0;}
+    .warning-box{background:rgba(210,154,99,0.08);border:1px solid rgba(210,154,99,0.2);border-radius:var(--radius-sm);padding:16px 20px;font-size:14px;color:rgba(248,241,232,0.6);margin:20px 0;}
+    .warning-box strong{color:var(--gold);display:block;margin-bottom:4px;font-family:var(--font-ui);font-size:12px;letter-spacing:0.08em;text-transform:uppercase;}
+    .app-cards{display:flex;flex-direction:column;gap:12px;}
+    .app-card{background:rgba(36,17,45,0.6);border:1px solid rgba(201,124,143,0.12);border-radius:var(--radius-md);padding:20px 22px;transition:border-color 0.2s;}
+    .app-card:hover{border-color:rgba(201,124,143,0.3);}
+    .app-card-name{font-family:var(--font-display);font-size:18px;font-style:italic;color:var(--ivory);margin-bottom:6px;}
+    .app-card p{font-size:14px;color:rgba(248,241,232,0.55);line-height:1.5;}
+    .app-card a{display:inline-block;margin-top:10px;font-family:var(--font-ui);font-size:12px;font-weight:600;color:var(--dusty);}
+    .app-card a::after{content:' →';}
+    footer{background:rgba(28,21,32,0.95);border-top:1px solid rgba(201,124,143,0.08);padding:48px 0 28px;}
+    .footer-inner{display:flex;justify-content:space-between;align-items:flex-start;gap:40px;flex-wrap:wrap;margin-bottom:32px;}
+    .footer-brand{font-family:var(--font-display);font-size:18px;font-style:italic;color:var(--ivory);}
+    .footer-links{display:flex;gap:24px;flex-wrap:wrap;}
+    .footer-links a{font-family:var(--font-ui);font-size:13px;color:rgba(248,241,232,0.4);transition:color 0.2s;}
+    .footer-links a:hover{color:var(--blush);}
+    .footer-bottom{border-top:1px solid rgba(201,124,143,0.06);padding-top:20px;font-family:var(--font-ui);font-size:12px;color:rgba(248,241,232,0.25);}
+    @media(max-width:768px){.nav-links{display:none;}.uc-grid{grid-template-columns:1fr;gap:32px;}.footer-inner{flex-direction:column;}}
+  </style>
+</head>
+<body>
+<nav>
+  <div class="container nav-inner">
+    <a href="/" class="nav-brand-name">AI Girlfriend Club</a>
+    <ul class="nav-links">
+      <li><a href="/pages/choose.html">Choose</a></li>
+      <li><a href="/pages/free.html">Free</a></li>
+      <li><a href="/pages/nsfw.html">NSFW</a></li>
+      <li><a href="/reviews/">Reviews</a></li>
+      <li><a href="/stories/">Stories</a></li>
+      <li><a href="/blog/">Blog</a></li>
+      <li><a href="/pages/before-you-pay.html" class="nav-cta">Before you pay</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="container">
+    <p class="section-label">Use case guide</p>
+    <h1>Choose the right AI girlfriend<br><em>for your use case.</em></h1>
+    <p>Not all AI girlfriend apps are built for the same experience. Some are better for conversation, others for fantasy, and some become expensive the moment things get interesting.</p>
+  </div>
+</section>
+
+<main>
+
+  <!-- REALISTIC CHAT -->
+  <section class="use-case-section" id="realistic">
+    <div class="container">
+      <div class="uc-grid">
+        <div class="uc-content">
+          <div class="uc-icon">💬</div>
+          <span class="tag">Realistic conversation</span>
+          <h2>You want chat that<br><em>feels coherent.</em></h2>
+          <p>If conversation quality is the priority — memory, personality consistency, responses that don't feel scripted — most apps will disappoint you unless you know what to look for.</p>
+          <p>What users usually want here is an AI that remembers context across sessions, maintains a consistent character, and doesn't break immersion with repetitive or generic replies.</p>
+          <ul class="check-list">
+            <li>Test free conversation before paying for anything</li>
+            <li>Check if memory persists after you close the app</li>
+            <li>Look for personality depth, not just physical customization</li>
+            <li>Avoid apps that redirect every conversation toward an upgrade</li>
+          </ul>
+          <div class="warning-box">
+            <strong>Common mistake</strong>
+            If the free chat feels hollow, premium features rarely fix that. Chat quality is a foundation, not an add-on.
+          </div>
+          <a href="/reviews/" class="btn btn-primary">See reviews by chat quality</a>
+        </div>
+        <div class="app-cards">
+          <div class="app-card">
+            <p class="app-card-name">Replika</p>
+            <span class="tag">Companion-first</span>
+            <p>The strongest option for conversational depth and long-term memory. Not built primarily for fantasy or NSFW, but the chat experience is the most coherent on the market.</p>
+            <a href="/reviews/replika.html">Read the review</a>
+          </div>
+          <div class="app-card">
+            <p class="app-card-name">Kupid.ai</p>
+            <span class="tag">Character + chat</span>
+            <p>Balances character creation with conversation quality. Memory is present but less consistent across long sessions.</p>
+            <a href="/reviews/kupid-ai.html">Read the review</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NSFW -->
+  <section class="use-case-section" id="nsfw">
+    <div class="container">
+      <div class="uc-grid">
+        <div class="uc-content">
+          <div class="uc-icon">🔥</div>
+          <span class="tag">Adult content</span>
+          <h2>You want NSFW roleplay<br><em>without surprises.</em></h2>
+          <p>Adult features are real and available — but almost always behind a paywall, credit system, or subscription tier. The question is how much, for what, and whether it is clearly communicated before you pay.</p>
+          <p>Some apps are transparent. Others drip-feed you content until you have spent significantly more than expected.</p>
+          <ul class="check-list">
+            <li>Check what adult features are free vs paid before starting</li>
+            <li>Understand the credit cost per message in explicit mode</li>
+            <li>Look for apps that state their content policy clearly</li>
+            <li>Avoid apps that use emotional pressure to unlock NSFW content</li>
+          </ul>
+          <div class="warning-box">
+            <strong>Worth knowing</strong>
+            The most expensive moment in AI girlfriend apps is usually when conversation turns adult. Know the pricing before that moment arrives.
+          </div>
+          <a href="/pages/nsfw.html" class="btn btn-primary">Full NSFW guide</a>
+        </div>
+        <div class="app-cards">
+          <div class="app-card">
+            <p class="app-card-name">Candy AI</p>
+            <span class="tag">Adult-friendly</span>
+            <p>One of the most explicit-capable platforms. NSFW features are clearly available but require a paid plan. Credit consumption in adult mode is worth checking before subscribing.</p>
+            <a href="/reviews/candy-ai.html">Read the review</a>
+          </div>
+          <div class="app-card">
+            <p class="app-card-name">CrushOn AI</p>
+            <span class="tag">NSFW-forward</span>
+            <p>Designed explicitly for adult roleplay with fewer content restrictions than most. Pricing model uses credits — track consumption carefully.</p>
+            <a href="/reviews/crushon-ai.html">Read the review</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FREE -->
+  <section class="use-case-section" id="free">
+    <div class="container">
+      <div class="uc-grid">
+        <div class="uc-content">
+          <div class="uc-icon">🆓</div>
+          <span class="tag">Free access</span>
+          <h2>You want to try<br><em>without paying first.</em></h2>
+          <p>Most AI girlfriend apps have a free tier. Almost none of them are truly free. The difference between free trial, freemium, and what some apps call "free" is worth understanding before you start.</p>
+          <ul class="check-list">
+            <li>Freemium: limited messages or features forever</li>
+            <li>Free trial: full access for a short period, then payment required</li>
+            <li>"Free" with credits: you start with credits that run out fast</li>
+            <li>No card required free: the rarest and most honest model</li>
+          </ul>
+          <div class="warning-box">
+            <strong>What to check</strong>
+            Does the app require a credit card to start? What happens when free messages run out? Can you test adult features at all for free?
+          </div>
+          <a href="/pages/free.html" class="btn btn-primary">Free AI girlfriends guide</a>
+        </div>
+        <div class="app-cards">
+          <div class="app-card">
+            <p class="app-card-name">Replika</p>
+            <span class="tag">Freemium</span>
+            <p>The free tier allows real conversation without a credit card. Romantic and adult features require a paid plan, but the core experience is genuinely accessible.</p>
+            <a href="/reviews/replika.html">Read the review</a>
+          </div>
+          <div class="app-card">
+            <p class="app-card-name">Kupid.ai</p>
+            <span class="tag">Limited free</span>
+            <p>Free access exists but is limited by message count. Enough to evaluate chat quality before deciding whether to subscribe.</p>
+            <a href="/reviews/kupid-ai.html">Read the review</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CUSTOM -->
+  <section class="use-case-section" id="custom">
+    <div class="container">
+      <div class="uc-grid">
+        <div class="uc-content">
+          <div class="uc-icon">🎭</div>
+          <span class="tag">Character creation</span>
+          <h2>You want to build<br><em>your own character.</em></h2>
+          <p>Custom characters vary wildly between apps. Some let you define appearance, personality, backstory, and scenario from scratch. Others give you a preset avatar with a name change and call it customization.</p>
+          <ul class="check-list">
+            <li>Check what is customizable before paying — appearance only, or personality too?</li>
+            <li>Look for apps that let you define backstory and scenario</li>
+            <li>Check whether custom characters cost extra credits</li>
+            <li>Test whether the character stays consistent across conversations</li>
+          </ul>
+          <div class="warning-box">
+            <strong>Common disappointment</strong>
+            Deep customization is often a paid feature. Know exactly what the free tier lets you build before investing time in a character.
+          </div>
+          <a href="/reviews/" class="btn btn-primary">See reviews by character options</a>
+        </div>
+        <div class="app-cards">
+          <div class="app-card">
+            <p class="app-card-name">Candy AI</p>
+            <span class="tag">Strong customization</span>
+            <p>Detailed appearance and personality controls. One of the better options for users who want to build a specific character rather than choose from presets.</p>
+            <a href="/reviews/candy-ai.html">Read the review</a>
+          </div>
+          <div class="app-card">
+            <p class="app-card-name">Kupid.ai</p>
+            <span class="tag">Visual-first</span>
+            <p>Strong on visual customization. Personality depth is more limited but the character creation interface is one of the most intuitive available.</p>
+            <a href="/reviews/kupid-ai.html">Read the review</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VOICE -->
+  <section class="use-case-section" id="voice">
+    <div class="container">
+      <div class="uc-grid">
+        <div class="uc-content">
+          <div class="uc-icon">🎙️</div>
+          <span class="tag">Voice chat</span>
+          <h2>You want voice —<br><em>know what it costs first.</em></h2>
+          <p>Voice is almost always a premium feature. The quality varies from convincing to obviously synthetic. Some apps charge per voice message, others include it in a higher subscription tier.</p>
+          <ul class="check-list">
+            <li>Check whether voice is included in the base subscription or costs extra</li>
+            <li>Look for audio samples before paying — quality varies significantly</li>
+            <li>Check whether voice responses are real-time or pre-generated</li>
+            <li>Some apps charge per voice message even on paid plans</li>
+          </ul>
+          <div class="warning-box">
+            <strong>Reality check</strong>
+            Voice AI has improved significantly but convincing voice still requires the right app and the right plan. Do not assume it is included.
+          </div>
+          <a href="/reviews/" class="btn btn-primary">Reviews with voice ratings</a>
+        </div>
+        <div class="app-cards">
+          <div class="app-card">
+            <p class="app-card-name">Replika</p>
+            <span class="tag">Voice included</span>
+            <p>Voice messages are available on paid plans. Quality is among the more natural-sounding options. Real-time voice call feature requires a Pro subscription.</p>
+            <a href="/reviews/replika.html">Read the review</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CREDITS -->
+  <section class="use-case-section" id="credits">
+    <div class="container">
+      <div class="uc-grid">
+        <div class="uc-content">
+          <div class="uc-icon">💳</div>
+          <span class="tag">Pricing clarity</span>
+          <h2>You want to avoid<br><em>credit traps.</em></h2>
+          <p>Credit systems are the most common monetization model in AI girlfriend apps. Some are transparent and fair. Others are engineered to consume credits faster than you expect — especially in adult or voice modes.</p>
+          <p>The goal is not to avoid credit apps entirely. It is to understand the cost per interaction before you start spending.</p>
+          <ul class="check-list">
+            <li>Find the credit cost per message before buying a credit pack</li>
+            <li>Check how many credits adult content or voice consumes</li>
+            <li>Avoid buying large credit bundles before testing the app</li>
+            <li>Look for subscription alternatives to credits — often better value</li>
+            <li>Check whether unused credits expire</li>
+          </ul>
+          <div class="warning-box">
+            <strong>Red flag pattern</strong>
+            If an app shows you how many credits you have but not how fast they deplete per action, that is a design choice, not an oversight.
+          </div>
+          <a href="/pages/before-you-pay.html" class="btn btn-primary">Full credits guide</a>
+        </div>
+        <div class="app-cards">
+          <div class="app-card">
+            <p class="app-card-name">Replika</p>
+            <span class="tag">Subscription-based</span>
+            <p>Subscription model rather than credits. Simpler pricing, easier to predict monthly spend. The most transparent pricing structure among major apps.</p>
+            <a href="/reviews/replika.html">Read the review</a>
+          </div>
+          <div class="app-card">
+            <p class="app-card-name">Candy AI</p>
+            <span class="tag">Credits + subscription</span>
+            <p>Both models available. Subscription is the better value for regular users. Credits are expensive per message in adult mode — check rates before buying.</p>
+            <a href="/reviews/candy-ai.html">Read the review</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <span class="footer-brand">AI Girlfriend Club</span>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/pages/before-you-pay.html">Before You Pay</a>
+        <a href="/reviews/">Reviews</a>
+        <a href="/blog/">Blog</a>
+        <a href="/pages/how-we-test.html">How We Test</a>
+        <a href="/pages/affiliate-disclosure.html">Affiliate Disclosure</a>
+        <a href="/pages/privacy-policy.html">Privacy Policy</a>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 AI Girlfriend Club. Independent reviews. No paid placement.</div>
+  </div>
+</footer>
+</body>
+</html>
