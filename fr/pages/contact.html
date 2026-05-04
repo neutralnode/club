@@ -28,13 +28,31 @@
 <div class="content">
 <h1>Nous<br><em>contacter.</em></h1>
 <p>Questions sur un avis, correction à signaler, demande pour un témoignage, ou demande de presse — utilisez le formulaire ci-dessous.</p>
-<div style="margin-top:32px;">
-<div style="margin-bottom:20px;"><label style="display:block;font-family:-apple-system,sans-serif;font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#C97C8F;margin-bottom:8px;">Sujet</label><select style="width:100%;background:rgba(36,17,45,0.6);border:1px solid rgba(201,124,143,0.2);border-radius:6px;color:#F8F1E8;font-family:Georgia,serif;font-size:16px;padding:12px 14px;outline:none;"><option>Sélectionner un sujet</option><option>Question ou correction sur un avis</option><option>Question sur un témoignage</option><option>Demande de partenariat ou affiliation</option><option>Demande presse ou média</option><option>Question sur la confidentialité</option><option>Autre</option></select></div>
-<div style="margin-bottom:20px;"><label style="display:block;font-family:-apple-system,sans-serif;font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#C97C8F;margin-bottom:8px;">Votre e-mail</label><input type="email" placeholder="votre@email.com" style="width:100%;background:rgba(36,17,45,0.6);border:1px solid rgba(201,124,143,0.2);border-radius:6px;color:#F8F1E8;font-family:Georgia,serif;font-size:16px;padding:12px 14px;outline:none;"/></div>
-<div style="margin-bottom:24px;"><label style="display:block;font-family:-apple-system,sans-serif;font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#C97C8F;margin-bottom:8px;">Message</label><textarea rows="6" placeholder="Votre message..." style="width:100%;background:rgba(36,17,45,0.6);border:1px solid rgba(201,124,143,0.2);border-radius:6px;color:#F8F1E8;font-family:Georgia,serif;font-size:16px;padding:12px 14px;outline:none;resize:vertical;"></textarea></div>
-<button onclick="alert('Message envoyé. Nous vous répondrons dans les prochains jours.')" style="background:#D29A63;color:#24112D;border:none;padding:14px 36px;border-radius:6px;font-family:-apple-system,sans-serif;font-size:15px;font-weight:700;cursor:pointer;width:100%;">Envoyer</button>
+<div class="contact-form">
+<div class="form-group">
+  <label>Sujet</label>
+  <select>
+    <option>Sélectionner un sujet</option>
+    <option>Question ou correction sur un avis</option>
+    <option>Question sur un témoignage</option>
+    <option>Demande de partenariat ou affiliation</option>
+    <option>Demande presse ou média</option>
+    <option>Question sur la confidentialité</option>
+    <option>Autre</option>
+  </select>
 </div>
+<div class="form-group">
+  <label>Votre e-mail</label>
+  <input type="email" placeholder="votre@email.com"/>
 </div>
+<div class="form-group">
+  <label>Message</label>
+  <textarea rows="6" placeholder="Votre message..."></textarea>
+</div>
+<button class="submit-btn" onclick="this.textContent='Envoyé — merci.';this.style.opacity='0.6';this.disabled=true;">Envoyer</button>
+<p class="disclaimer">En soumettant, vous acceptez que votre message soit traité conformément à notre <a href="/fr/pages/politique-confidentialite.html">politique de confidentialité</a>.</p>
+</div>
+  </div>
 <footer>
   <div class="container">
     <div class="footer-inner">
